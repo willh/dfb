@@ -1,0 +1,22 @@
+{
+  "name": "dfb",
+  "version": "1.0.0",
+  "description": "dystopian future banking site generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willh/dfb.git"
+  },
+  "author": "Will Hamill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willh/dfb/issues"
+  },
+  "homepage": "https://github.com/willh/dfb#readme",
+  "dependencies": {
+    "claudia-api-builder": "^2.2.0"
+  }
+}

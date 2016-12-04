@@ -8,7 +8,7 @@ var html = ["<html lang=\"en-GB\">",
             "</style>",
             "</head>",
             "<body>",
-            "<img src=\"http://dfb-static.s3-eu-west-1.amazonaws.com/compass.jpg\" alt=\"compass\" >",
+            "<img src=\"https://dfb-static.s3-eu-west-1.amazonaws.com/compass.jpg\" alt=\"compass\" >",
             "<div id=\"main\"><p>{{greeting}}</p></div>",
             "</body>",
             "</html>",].join('');

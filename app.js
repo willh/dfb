@@ -19,10 +19,9 @@ module.exports = api;
 
 var dystopiaGenerator = require('./dystopian');
 
-var dystopianFuture = dystopiaGenerator.randomDystopianFuture();
-var htmlResponse = html.replace("{{greeting}}", dystopianFuture);
-
 api.get('/in-the-future', function () {
+  var dystopianFuture = dystopiaGenerator.randomDystopianFuture();
+  var htmlResponse = html.replace("{{greeting}}", dystopianFuture);
   return htmlResponse;
 }, {
   success: { contentType: 'text/html' }
